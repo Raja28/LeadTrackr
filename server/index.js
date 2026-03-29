@@ -12,7 +12,7 @@ PORT = process.env.PORT || 2027
 
 const cors = require("cors");
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://lead-trackr-client.vercel.app",
     credentials: true,
 }));
 
